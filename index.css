@@ -134,11 +134,14 @@
   margin-bottom: 5px;
   font-size: 18px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .main-div {
+    margin: 0;
+  }
   .calculator,
   .buttons,
   .display {
-    width: 100vw;
+    width: 90vw;
   }
   .buttons {
     padding: 10px;
